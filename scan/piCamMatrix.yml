@@ -4,20 +4,20 @@ Image_Width: 1296
 Image_Height: 972
 Calibration_Pattern: ARUCO_SINGLE
 Calibration_Flags: "+FIX_K3 +FIX_K4 +FIX_K5 "
-Camera_Matrix: !!opencv-matrix
+Camera_Matrix: 
    rows: 3
    cols: 3
    dt: d
    data: [ 1.0307662606333474e+03, 0., 6.3294134168589937e+02, 0.,
        1.0338470913864858e+03, 4.9961492705571430e+02, 0., 0., 1. ]
-Distortion_Coefficients: !!opencv-matrix
+Distortion_Coefficients: 
    rows: 5
    cols: 1
    dt: d
    data: [ 1.3492454441938356e-01, -2.2414687623641336e-01,
        -2.2770505776319324e-03, -1.2103482539796218e-03, 0. ]
 Avg_Reprojection_Error: 5.9180104204861206e-01
-Per_View_Reprojection_Errors: !!opencv-matrix
+Per_View_Reprojection_Errors:
    rows: 14
    cols: 1
    dt: f
